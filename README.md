@@ -2,6 +2,11 @@
 
 A Dockerized [Sails v1](https://sailsjs.com) application using MongoDB
 
+## Requirements
+
+- [Sails](https://sailsjs.com/get-started)
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docker-docs.netlify.app/compose/install/)
 
 ## Get started
 
