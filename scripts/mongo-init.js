@@ -1,10 +1,8 @@
 db.createUser({
-  user: "root",
-  pwd: "h3W+ee3p+st2VJlnRiIMTw==",
-  roles: [
-    {
-      role: 'dbOwner',
-      db: "sailsmongodb",
-    },
-  ],
+  user: _getEnv('MONGO_INITDB_ROOT_USERNAME'),
+  pwd: _getEnv('MONGO_INITDB_ROOT_PASSWORD'),
+  roles: [{
+    role: 'dbOwner',
+    db: _getEnv('MONGO_INITDB_DATABASE'),
+  }],
 });

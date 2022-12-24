@@ -9,5 +9,8 @@ services:
     env_file: 
       - .env
     volumes:
-      - ./.data:/data/db
+      - sails-data:/data/db
       - ./scripts/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+
+volumes:
+  sails-data:
