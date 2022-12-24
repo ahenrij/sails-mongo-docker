@@ -71,7 +71,8 @@ module.exports = {
       *                                                                           *
       ****************************************************************************/
       // ssl: true,
-
+      adapter: 'sails-mongo',
+      url: process.env.DATABASE_URL
     },
 
   },
@@ -118,6 +119,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   blueprints: {
+    rest: true,
     shortcuts: false,
   },
 
