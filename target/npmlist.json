@@ -1,1 +1,0 @@
-{"version":"0.0.0","name":"sails-mongo-docker","dependencies":{"@sailshq/connect-redis":{"version":"3.2.1"},"@sailshq/lodash":{"version":"3.10.4"},"@sailshq/socket.io-redis":{"version":"5.2.0"},"grunt":{"version":"1.0.4"},"sails-hook-grunt":{"version":"4.0.1"},"sails-hook-orm":{"version":"3.0.2"},"sails-hook-sockets":{"version":"2.0.1"},"sails":{"version":"1.5.2"}}}
